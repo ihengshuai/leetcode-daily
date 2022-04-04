@@ -20,7 +20,7 @@ import java.util.HashMap;
  * 输入：nums = [3,3], target = 6
  * 输出：[0,1]
  */
-public class twoSum {
+public class TwoSum {
     @Test
     public void test() {
         int[] sum1 = twoSum1(new int[]{2, 10, 4, 9, 6}, 10);
@@ -33,11 +33,11 @@ public class twoSum {
         System.out.println(Arrays.toString(sum4));
     }
 
-    // 1.暴力破解
     /**
-     * 	复杂度分析:
-     时间复杂度：O(N^2)，其中 N 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。
-     空间复杂度：O(1)。
+     * 1.暴力破解
+     * 复杂度分析:
+     * 时间复杂度：O(N^2)，其中 N 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。
+     * 空间复杂度：O(1)。
      */
     public int[] twoSum1(int[] nums, int target) {
         int len = nums.length;
@@ -51,9 +51,8 @@ public class twoSum {
         return new int[0];
     }
 
-    // 2.hashTable
-
     /**
+     * 2.hashTable
      * 复杂度分析:
      * 时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素 x，我们可以 O(1) 地寻找 target - x。
      * 空间复杂度：O(1)。
