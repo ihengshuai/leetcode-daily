@@ -16,3 +16,4 @@ Let's challenge together!!
 - [x] `#20` 有效的括号 ValidBracket
 - [x] `#21` 合并两个有序链表 MergeTwoList
 - [x] `#26` 删除有序数组中的重复项 RemoveDuplicates
+- [x] `#27` 移除元素 RemoveElement
