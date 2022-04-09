@@ -19,3 +19,4 @@ Let's challenge together!!
 - [x] `#27` 移除元素 RemoveElement
 - [x] `#28` 实现strStr()函数 StrStr
 - [x] `#35` 搜索插入位置 SearchInsert
+- [x] `#53` 最大子数组和 MaxSubArray
