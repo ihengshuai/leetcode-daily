@@ -21,3 +21,4 @@ Let's challenge together!!
 - [x] `#35` 搜索插入位置 SearchInsert
 - [x] `#53` 最大子数组和 MaxSubArray
 - [x] `#58` 最后一个单词的长度 LengthOfLastWord
+- [x] `#66` 加一 PlusOne
