@@ -23,3 +23,4 @@ Let's challenge together!!
 - [x] `#58` 最后一个单词的长度 LengthOfLastWord
 - [x] `#66` 加一 PlusOne
 - [x] `#67` 二进制求和 AddBinary
+- [x] `#69` x的平方根 MySqrt
