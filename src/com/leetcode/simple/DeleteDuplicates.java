@@ -17,7 +17,7 @@ import org.junit.Test;
 public class DeleteDuplicates {
     @Test
     public void test() {
-        ListNode node = deleteDuplicates(new ListNode(1, new ListNode(1, new ListNode(2))));
+        ListNode node = deleteDuplicates(new ListNode(1, new ListNode(1, new ListNode(1))));
         System.out.println(node);
     }
 
@@ -30,9 +30,11 @@ public class DeleteDuplicates {
         if (head == null) return head;
         ListNode cur = head;
         while (cur.next != null) {
-            if (cur.val == cur.next.val)
+            if (cur.val == cur.next.val) {
                 cur.next = cur.next.next;
-            cur = cur.next;
+            } else {
+                cur = cur.next;
+            }
         }
         return head;
     }
