@@ -1,5 +1,6 @@
 package com.leetcode.simple;
 
+import com.util.ListNode;
 import org.junit.Test;
 
 /**
@@ -29,20 +30,3 @@ public class MergeTwoList {
     }
 }
 
-class ListNode {
-    public int val;
-    public ListNode next = null;
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                ", next=" + next +
-                '}';
-    }
-}
