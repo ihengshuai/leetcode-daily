@@ -38,3 +38,4 @@ Let's challenge together!!
 - [x] `#111` 二叉树的最小深度 MinTreeDepth
 - [x] `#112` 路径总和 HasPathSum
 - [x] `#118` 杨辉三角 YangHuiTriangle
+- [x] `#119` 杨辉三角2 YangHuiTriangle2
