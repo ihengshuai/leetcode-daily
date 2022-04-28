@@ -41,3 +41,4 @@ Let's challenge together!!
 - [x] `#119` 杨辉三角2 YangHuiTriangle2
 - [x] `#121` 买卖股票的最佳时机 MaxProfit
 - [x] `#125` 验证回文串 IsPalindrome
+- [x] `#136` 只出现一次的数字 AppearOnceNumber
