@@ -43,3 +43,4 @@ Let's challenge together!!
 - [x] `#125` 验证回文串 IsPalindrome
 - [x] `#136` 只出现一次的数字 AppearOnceNumber
 - [x] `#141` 环形链表 HasCycleLinkList
+- [x] `#144` 二叉树的前序遍历 PreorderTraversal
