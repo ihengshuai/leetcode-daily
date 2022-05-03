@@ -47,7 +47,9 @@ public class MinStack {
  * 复杂度分析
  * 时间复杂度：对于题目中的所有操作，时间复杂度均为 O(1)。因为栈的插入、删除与读取操作都是 O(1)，我们定义的每个操作最多调用栈操作两次。
  * 空间复杂度：O(n)，其中 n 为总操作数。最坏情况下，我们会连续插入 n 个元素，此时两个栈占用的空间为O(n)。
- */Deque<Integer> xStack;
+ */
+class MinStackSolution {
+    Deque<Integer> xStack;
     Deque<Integer> minStack;
 
     public MinStackSolution() {
@@ -73,6 +75,4 @@ public class MinStack {
     public int getMin() {
         return minStack.peek();
     }
-class MinStackSolution {
-
 }
