@@ -46,3 +46,4 @@ Let's challenge together!!
 - [x] `#144` 二叉树的前序遍历 PreorderTraversal
 - [x] `#145` 二叉树的后序遍历 PostorderTraversal
 - [x] `#155` 最小栈 MinStack
+- [x] `#160` 相交链表 GetIntersectionNode
