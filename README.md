@@ -47,3 +47,8 @@ Let's challenge together!!
 - [x] `#145` 二叉树的后序遍历 PostorderTraversal
 - [x] `#155` 最小栈 MinStack
 - [x] `#160` 相交链表 GetIntersectionNode
+
+## Sorting algorithm
+sort algorithm in folder sort.（https://visualgo.net/zh）
+
+- [x] 冒泡排序 BubbleSort
