@@ -52,3 +52,4 @@ Let's challenge together!!
 sort algorithm in folder sort.（https://visualgo.net/zh）
 
 - [x] 冒泡排序 BubbleSort
+- [x] 选择排序 SelectSort
